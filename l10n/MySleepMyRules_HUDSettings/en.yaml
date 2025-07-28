@@ -4,26 +4,38 @@ page_description: "Configurable sleeping (in bed) and resting (not in bed) exper
 general_group_name: "General"
 modEnabled_name: "Mod Enabled"
 enemyDistance_name: "Safe distance from enemies"
-enemyDistance_description: "Overrides vanilla safe distance from enemies check. Vanilla = ???"
+enemyDistance_description: "Overrides vanilla safe distance from enemies check.\nVanilla = ???"
+isMournholdInterior_name: "Override Mournhold to be an interior"
+isMournholdInterior_description: |
+  Affected cells are:
+  - Godsreach
+  - The Great Bazaar
+  - The Plaza Brindisi Dorom
+  - The Royal Palace
+  - Temple Courtyard
+  Vanilla = Yes
+bedsAreSafe_name: "Beds ignore all configs"
+bedsAreSafe_description: "They will behave as in vanilla."
 
 conditionsInteriors_group_name: "Resting Conditions: Interiors"
 interiorRest_name: "Allow resting in interiors"
 interiorWhitelist_name: "Interiors Whitelist"
-interiorWhitelist_description: "Overrides all other settings for select cells. Write each cell name from a new line."
-interiorWhitelist_defaultValues: "Mournhold cells"
+interiorWhitelist_description: "Overrides all other settings for select cells. Write each cell name separated by comma. For example:\nSeyda Neen, Balmora, Suran"
 interiorBlacklist_name: "Interiors Blacklist"
 interiorBlacklist_description: "Overrides all other settings for select cells. Write each cell name from a new line."
 interiorWithEnemiesRest_name: "Allow resting in interiors with enemies"
-interiorWithEnemiesRest_description: "Prevents you from sleeping if there are ANY enemies in the interior, ignoring safe distance check"
+interiorWithEnemiesRest_description: "Prevents you from sleeping if there are ANY enemies in the interior, ignoring safe distance check."
 
 conditionsExteriors_group_name: "Resting Conditions: Exteriors"
 exteriorRest_name: "Allow resting in exteriors"
+badWeatherRest_name: "Allow resting in bad weather"
+badWeatherRest_description: "Includes rains, ash storms and snow storms."
+allowIllegalRest_name: "Allow resting in illegal cells"
+allowIllegalRest_description: "Covers cities and all other cells with 'NoSleep' tag."
 exteriorWhitelist_name: "Exteriors Whitelist"
 exteriorWhitelist_description: "Overrides all other settings for select cells. Write each cell name from a new line."
 exteriorBlacklist_name: "Exteriors Blacklist"
 exteriorBlacklist_description: "Overrides all other settings for select cells. Write each cell name from a new line."
-badWeatherRest_name: "Allow resting in bad weather"
-badWeatherRest_description: "Includes rains, ash storms and snow storms"
 
 resourcesSleep_group_name: "Resource Replenishing: Sleeping"
 restoreHealthSleep_name: "Restore Health"

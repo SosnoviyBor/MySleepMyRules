@@ -17,5 +17,8 @@ Configure your own sleeping and resting experiences.
 - Disable magicka regeneration
 - Disable fatigue regeneration
 
+## Requirements
+- OpenMW July 2025 dev build or newer
+
 ## Installation
 Installs like any other OpenMW mod. Not sure about pre-0.49 OpenMW support, but you should use newest builds anyway.

@@ -31,6 +31,20 @@ I.Settings.registerGroup {
                 integer = true,
             },
         },
+        {
+            key = 'isMournholdInterior',
+            name = 'isMournholdInterior_name',
+            description = 'isMournholdInterior_description',
+            renderer = 'checkbox',
+            default = true,
+        },
+        {
+            key = 'bedsAreSafe',
+            name = 'bedsAreSafe_name',
+            description = 'bedsAreSafe_description',
+            renderer = 'checkbox',
+            default = true,
+        },
     },
 }
 
@@ -95,6 +109,15 @@ I.Settings.registerGroup {
             key = 'badWeatherRest',
             name = 'badWeatherRest_name',
             description = 'badWeatherRest_description',
+            renderer = 'checkbox',
+            default = true,
+        },
+        {
+            -- TODO
+            -- disable if 'exteriorRest' iis No
+            key = 'allowIllegalRest',
+            name = 'allowIllegalRest_name',
+            description = 'allowIllegalRest_description',
             renderer = 'checkbox',
             default = true,
         },

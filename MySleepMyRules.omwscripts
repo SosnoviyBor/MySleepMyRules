@@ -1,2 +1,2 @@
-PLAYER: scripts/MySleepMyRules/main.lua
+PLAYER: scripts/MySleepMyRules/player.lua
 MENU: scripts/MySleepMyRules/settingsMenu.lua
